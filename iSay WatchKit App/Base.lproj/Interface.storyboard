@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14C1514" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <group height="100" alignment="center" spacing="4" id="AL2-n4-VzZ">
+                            <items>
+                                <button width="66" height="48" alignment="left" verticalAlignment="bottom" id="GwQ-0C-IuB">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.12941176470588237" green="0.64313725490196083" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="24"/>
+                                    <variation key="device=watch38mm" height="43" width="63"/>
+                                    <variation key="device=watch42mm" height="52" width="73"/>
+                                    <connections>
+                                        <action selector="greenButtonTouched:" destination="AgC-eL-Hgc" id="0VW-Za-fNn"/>
+                                    </connections>
+                                </button>
+                                <button width="66" height="48" alignment="center" verticalAlignment="bottom" id="fcU-Cn-CCg">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="1" green="0.27450980392156865" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="24"/>
+                                    <variation key="device=watch38mm" height="43" width="63"/>
+                                    <variation key="device=watch42mm" height="52" width="73"/>
+                                    <connections>
+                                        <action selector="redButtonTouched:" destination="AgC-eL-Hgc" id="LsV-EJ-nRr"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <variation key="device=watch38mm" height="49"/>
+                            <variation key="device=watch42mm" height="56"/>
+                        </group>
+                        <group height="100" alignment="center" spacing="4" id="6WL-AR-mQp">
+                            <items>
+                                <button width="66" height="50" alignment="center" id="PW7-mK-jlu">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.96862745098039216" green="0.88627450980392153" blue="0.16862745098039217" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="24"/>
+                                    <variation key="device=watch38mm" height="43" width="63"/>
+                                    <variation key="device=watch42mm" height="52" width="73"/>
+                                    <connections>
+                                        <action selector="yellowButtonTouched:" destination="AgC-eL-Hgc" id="sdS-b7-Sxu"/>
+                                    </connections>
+                                </button>
+                                <button width="66" height="50" alignment="center" id="neN-fr-Lsu">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="0.23137254901960785" green="0.80392156862745101" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="24"/>
+                                    <variation key="device=watch38mm" height="43" width="63"/>
+                                    <variation key="device=watch42mm" alignment="center" height="52" width="73"/>
+                                    <connections>
+                                        <action selector="blueButtonTouched:" destination="AgC-eL-Hgc" id="Rq5-yB-6oN"/>
+                                    </connections>
+                                </button>
+                            </items>
+                            <variation key="device=watch38mm" height="49"/>
+                            <variation key="device=watch42mm" height="56"/>
+                        </group>
+                        <group width="128" height="16" alignment="center" verticalAlignment="bottom" id="6Q7-gZ-DFg">
+                            <items>
+                                <label height="16" alignment="left" verticalAlignment="bottom" text="Score:" id="REX-tf-nRD"/>
+                                <label height="16" alignment="left" verticalAlignment="bottom" text="0" textAlignment="left" id="gE1-Gz-SCT"/>
+                                <label height="16" alignment="right" verticalAlignment="bottom" text="Best:" textAlignment="right" id="i7K-hB-aOi"/>
+                                <label height="16" alignment="right" verticalAlignment="bottom" text="0" textAlignment="right" id="Nvk-Cl-I48"/>
+                            </items>
+                            <variation key="device=watch38mm" width="128"/>
+                            <variation key="device=watch42mm" width="148"/>
+                        </group>
+                        <group alignment="center" verticalAlignment="bottom" id="NGe-77-IKN">
+                            <items>
+                                <button width="132" height="25" alignment="center" verticalAlignment="bottom" title="PLAY!" id="uMu-nc-dlc">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" type="boldSystem" pointSize="15"/>
+                                    <variation key="device=watch38mm" height="25" width="128"/>
+                                    <variation key="device=watch42mm" height="30" width="148"/>
+                                    <connections>
+                                        <action selector="playButtonTouched:" destination="AgC-eL-Hgc" id="fWN-wc-cMM"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="bestScoreLabel" destination="Nvk-Cl-I48" id="mZJ-99-qLY"/>
+                        <outlet property="blueButton" destination="neN-fr-Lsu" id="Dtz-zS-jYL"/>
+                        <outlet property="greenButton" destination="GwQ-0C-IuB" id="9dF-8P-uTu"/>
+                        <outlet property="playButton" destination="uMu-nc-dlc" id="gq7-rc-RvC"/>
+                        <outlet property="redButton" destination="fcU-Cn-CCg" id="gOw-t1-KYt"/>
+                        <outlet property="scoreLabel" destination="gE1-Gz-SCT" id="Ceb-uB-B0U"/>
+                        <outlet property="yellowButton" destination="PW7-mK-jlu" id="Jza-G5-HF9"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="241" y="280.5"/>
+        </scene>
+    </scenes>
+</document>

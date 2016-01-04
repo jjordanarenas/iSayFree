@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Author Mode</key>
+		<string>NO</string>
+		<key>apiID</key>
+		<string></string>
+		<key>apiKey</key>
+		<string></string>
+		<key>Chartboost Enabled</key>
+		<string>NO</string>
+		<key>Chartboost App ID</key>
+		<string>999999</string>
+		<key>Chartboost App Signature</key>
+		<string>999999</string>
+		<key>Chartboost Show Ad At Main Menu</key>
+		<string>YES</string>
+		<key>Chartboost Show Ad At Game Over</key>
+		<string>YES</string>
+		<key>AdMob Enabled</key>
+		<string>YES</string>
+		<key>AdMob Banner Main Menu ID</key>
+		<string>999999</string>
+		<key>AdMob Banner Gameplay ID</key>
+		<string>999999</string>
+		<key>AdMob Banner Game Over ID</key>
+		<string>999999</string>
+		<key>AdMob Show Ad At Main Menu</key>
+		<string>YES</string>
+		<key>AdMob Show Ad At Gameplay</key>
+		<string>YES</string>
+		<key>AdMob Show Ad At Game Over</key>
+		<string>YES</string>
+		<key>AdMob Banner Main Menu Is At Bottom</key>
+		<string>YES</string>
+		<key>AdMob Banner Gameplay Is At Bottom</key>
+		<string>YES</string>
+		<key>AdMob Banner Game Over Is At Bottom</key>
+		<string>YES</string>
+		<key>Flurry Enabled</key>
+		<string>NO</string>
+		<key>Flurry API Key</key>
+		<string>999999</string>
+		<key>Ads Frequency Chartboost Main Menu</key>
+		<string>1</string>
+		<key>Ads Frequency Chartboost Game Over</key>
+		<string>1</string>
+		<key>Ads Frequency AdMob Main Menu</key>
+		<string>1</string>
+		<key>Ads Frequency AdMob Gameplay</key>
+		<string>1</string>
+		<key>Ads Frequency AdMob Game Over</key>
+		<string>1</string>
+		<key>Ads Frequency RevMob Main Menu</key>
+		<string>1</string>
+		<key>Ads Frequency RevMob Game Over</key>
+		<string>1</string>
+		<key>Ads Frequency AppLovin Main Menu</key>
+		<string>1</string>
+		<key>Ads Frequency AppLovin Game Over</key>
+		<string>1</string>
+		<key>Nextpeer Enabled</key>
+		<string>NO</string>
+		<key>Nextpeer Game Key</key>
+		<string>999999</string>
+		<key>iRate Enabled</key>
+		<string>YES</string>
+		<key>iRate Days Until Prompt</key>
+		<string>1</string>
+		<key>iRate Uses Until Prompt</key>
+		<string>1</string>
+		<key>iRate Remind Period</key>
+		<string>1</string>
+		<key>iRate Prompt Title</key>
+		<string>Rate</string>
+		<key>iRate Prompt Message</key>
+		<string>Rate this app</string>
+		<key>RevMob Enabled</key>
+		<string>YES</string>
+		<key>RevMob Media ID</key>
+		<string>999999</string>
+		<key>RevMob Show Banner Ad At Main Menu</key>
+		<string>YES</string>
+		<key>RevMob Show Interstitial Ad At Main Menu</key>
+		<string>YES</string>
+		<key>RevMob Show Popup Ad At Main Menu</key>
+		<string>YES</string>
+		<key>RevMob Show Interstitial Ad At Game Over</key>
+		<string>YES</string>
+		<key>RevMob Show Popup Ad At Game Over</key>
+		<string>YES</string>
+		<key>AppLovin Enabled</key>
+		<string>YES</string>
+		<key>AppLovinSdkKey</key>
+		<string>999999</string>
+		<key>AppLovin Show Ad At Main Menu</key>
+		<string>YES</string>
+		<key>AppLovin Show Ad At Game Over</key>
+		<string>YES</string>
+		<key>XLink</key>
+		<string>PLEASE_DO_NOT_EVER_CHANGE_ME</string>
+	</dict>
+</array>
+</plist>
